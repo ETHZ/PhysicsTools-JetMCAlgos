@@ -18,21 +18,4 @@
   <use name=root>
 </library>
 
-<library file=printFlavJet.cc>
-  <flags EDM_PLUGIN=1>
-  <use name=FWCore/Framework>
-  <use name=SimGeneral/HepPDTRecord>
-  <use name=PhysicsTools/JetMCUtils>
-  <use name=rootmath>
-  <use name=root>
-</library>
-
-<library file=printPartonJet.cc>
-  <flags EDM_PLUGIN=1>
-  <use name=FWCore/Framework>
-  <use name=SimGeneral/HepPDTRecord>
-  <use name=PhysicsTools/JetMCUtils>
-  <use name=rootmath>
-  <use name=root>
-</library>
 
