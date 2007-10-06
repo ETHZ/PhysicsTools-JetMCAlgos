@@ -18,4 +18,10 @@
   <use name=root>
 </library>
 
+<library file=matchOneToOne.cc>
+  <flags EDM_PLUGIN=1>
+  <use name=FWCore/Framework>
+  <use name=rootmath>
+  <use name=root>
+</library>
 
