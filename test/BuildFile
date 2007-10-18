@@ -1,6 +1,5 @@
 <use name=clhep>
 <use name=DataFormats/BTauReco>
-<use name=RecoBTag/MCTools>
 
 <library file=printGenEvent.cc>
   <flags EDM_PLUGIN=1>
