@@ -194,8 +194,12 @@ int CandJetFlavourIdentifier::fillPhysicsDefinition( const Candidate& theJet ) c
       tempParticle = m;
       nInTheCone++;
     }
-    // Look for partons in TheBiggerConeSize now
+    // Look for heavy partons in TheBiggerConeSize now
     if( aParticle.numberOfDaughters() > 0  && ( aParticle.daughter(0)->pdgId() == 91 || aParticle.daughter(0)->pdgId() == 92 ) ) {
+      if( flavour ==  1 ||
+          flavour ==  2 ||
+          flavour ==  3 ||
+          flavour == 21 ) continue;
       if( dist < TheBiggerConeSize ) theContaminations.push_back( &aParticle );
     }
   }
