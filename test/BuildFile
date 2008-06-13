@@ -1,7 +1,7 @@
 <use name=clhep>
 <use name=DataFormats/BTauReco>
 
-<library file=printGenEvent.cc>
+<library file=printEvent.cc>
   <flags EDM_PLUGIN=1>
   <use name=FWCore/Framework>
   <use name=SimGeneral/HepPDTRecord>
@@ -10,7 +10,7 @@
   <use name=root>
 </library>
 
-<library file=jetTest.cc>
+<library file=jetMatch.cc>
   <flags EDM_PLUGIN=1>
   <use name=FWCore/Framework>
   <use name=rootmath>
