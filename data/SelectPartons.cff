@@ -1,6 +1,0 @@
-# select the partons for Jet MC Flavour
-  module myPartons = PartonSelector{
-     bool withLeptons = false
-  }
-
-
